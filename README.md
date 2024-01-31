@@ -12,14 +12,22 @@ Using modified examples from this guide: https://randomnerdtutorials.com/esp32-l
 To make this work on a USB Nugget, I defined custom SPI pins.
 
 #define SCK 15
+
 #define MISO 17
+
 #define MOSI 21
+
+
 
 These are the pins on the USB Nugget I connected the module to:
 
+
 #define ss 4
+
 #define rst 14
+
 #define dio0 2
+
 
 I also used a Nugget Breakout Board for easy wiring: https://retia.io/products/usb-nuget-breadboard-tail-breakout
 
